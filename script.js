@@ -1,4 +1,4 @@
-let playerChoice = prompt("What is your choice of weapon: rock, paper, or scissors?");
+let playerChoice = prompt("Would you like to play a game of rock, paper or scissors?");
     
     //Computer Choice
    let computerChoice = Math.ceil(Math.random() *3);
