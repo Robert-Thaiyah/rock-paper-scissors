@@ -22,9 +22,11 @@ playerOne === computer ? `playerOne: ${playerOne}\n computer: ${computer}\n tie 
 
 alert(result);
 let playAgain = confirm("Play another round?");
+
+//loop needs work
 function playRound() {
     for (let i = 0; i < playRound; i++) {
-        playAgain ? location.reload() : alert("Thanks for playing!!");
+        playAgain ? location.playerChoice() : alert("Thanks for playing!!");
      }
 }
 // playAgain ? location.reload() : alert("Thanks for playing!!");
